@@ -1,0 +1,57 @@
+@charset "UTF-8";
+* {
+  font-family: 標楷體;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+header.jumbotron {
+  height: 800px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url(https://www.imgbase.info/images/safe-wallpapers/sports/soccer/42909_soccer_arsenal_arsenal_fc.jpg);
+  background-size: cover;
+  mix-blend-mode: multiply;
+  background-attachment: fixed;
+}
+header.jumbotron .container {
+  color: #000000;
+  padding: 100px 100px;
+}
+header.jumbotron hr {
+  max-width: 300px;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #fff;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(http://www.sompaisoscatalans.cat/simage/76/765975/arsenal-wallpaper-android.png);
+  height: 400px;
+  background-size: cover;
+  mix-blend-mode: multiply;
+}
+section#section_ask h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+section#section_ask section#section_about img {
+  width: 50%;
+}
+section#section_ask section#section_about .img_wrap {
+  height: 100px;
+  overflow: hidden;
+}
